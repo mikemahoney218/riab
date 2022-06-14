@@ -28,7 +28,7 @@ The goal of riab is to ...
 You can install the development version of riab like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+remotes::install_github("mikemahoney218/riab")
 ```
 
 ## Example
