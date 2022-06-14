@@ -1,0 +1,20 @@
+Package: riab
+Type: Package
+Title: Multi-Scale Assessments of Spatial Model Accuracy
+Version: 0.1.0
+Author: person("Michael", "Mahoney", , "mike.mahoney.218@gmail.com", 
+        role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2402-304X"))
+Description: Functions aiding in multi-scale assessments of spatial model 
+    accuracy. By reporting spatially-explicit accuracy for predictions 
+    aggregated at multiple scales, users are able to provide more useful 
+    descriptions of how effectively their models represent the areas model
+    consumers care about.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    glue,
+    purrr,
+    rlang,
+    rsample,
+    sf
