@@ -1,7 +1,7 @@
 Package: riab
 Type: Package
 Title: Multi-Scale Assessments of Spatial Model Accuracy
-Version: 0.1.0
+Version: 0.0.0.9000
 Author: person("Michael", "Mahoney", , "mike.mahoney.218@gmail.com", 
         role = c("aut", "cre"), comment = c(ORCID = "0000-0003-2402-304X"))
 Description: Functions aiding in multi-scale assessments of spatial model 
@@ -18,3 +18,5 @@ Imports:
     rlang,
     rsample,
     sf
+Suggests: 
+    covr
